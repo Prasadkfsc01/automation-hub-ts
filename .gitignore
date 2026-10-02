@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test output
+reports/
+test-results/
+playwright-report/
+
+# Screenshots / traces
+screenshots/
+traces/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# TypeScript build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
